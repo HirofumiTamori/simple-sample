@@ -1,0 +1,41 @@
+button{
+    display: block;
+    width: 100%;
+    height: 80%;
+    color:white;
+    font-size: 2.0em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-style: none;
+    border-radius: 5px;    
+}
+button#plus { 
+    background-color: blue;
+}
+button#plus:hover{
+    background-color: lightblue;
+}
+button#minus { 
+    background-color: red;
+}
+button#minus:hover{
+    background-color: lightcoral;
+}
+.container {
+    display: table;
+    width: 100%;
+}
+.b-style {
+    margin: 20px 10px 20px 10px;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+.c-style {
+    margin: 20px 10px 20px 10px;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    font-size: 2em;
+    font-weight: bold;
+}
